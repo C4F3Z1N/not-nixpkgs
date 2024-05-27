@@ -5,5 +5,5 @@
     unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   };
 
-  outputs = { stable, ... }: stable;
+  outputs = { lib, ... }: lib;
 }
